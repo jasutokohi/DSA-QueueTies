@@ -10,4 +10,21 @@
         <maven.compiler.release>25</maven.compiler.release>
         <exec.mainClass>com.mycompany.dsaqueuetiesms2.DSAQueueTiesMS2</exec.mainClass>
     </properties>
+    <dependencies>
+
+    <!-- Apache Commons Lang -->
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>3.9</version>
+    </dependency>
+
+    <!-- OpenCSV -->
+    <dependency>
+        <groupId>com.opencsv</groupId>
+        <artifactId>opencsv</artifactId>
+        <version>5.11</version>
+    </dependency>
+
+</dependencies>
 </project>
